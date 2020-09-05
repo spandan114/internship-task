@@ -1,0 +1,16 @@
+{
+  "name": "context_api_crud",
+  "version": "1.0.0",
+  "description": "this app is created using node,mongodb,express & react as frontend and context api for state management",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+    "start": "node index.js"
+  },
+  "author": "spandan joshi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}
